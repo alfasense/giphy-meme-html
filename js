@@ -1,8 +1,8 @@
 function updateLocation(lat, long) {
-    fetch('https://api.github.com/repos/your-username/your-repository/contents/location.txt', {
+    fetch('https://api.github.com/repos/alfasense/alfasense/giphy-meme-html/contents/location.txt', {
         method: 'PUT',
         headers: {
-            'Authorization': 'Bearer YOUR_TOKEN',
+            'Authorization': 'Bearer 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',
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
